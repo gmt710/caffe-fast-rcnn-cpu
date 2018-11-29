@@ -7,8 +7,8 @@ Requirements
 > cudnn7.4  
 > opencv3.4   
 > matlab2017a   
-> gcc-5.5
-> g++-5.5
+> gcc-5.5            
+> g++-5.5                  
 
 Source file
 ---------
