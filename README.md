@@ -3,13 +3,15 @@ caffe-fast-rcnn-CPU
 Requirements
 ---------
 > Ubuntu18.04   
+> gcc-5.5            
+> g++-5.5  
 > cudn9.0  
 > cudnn7.4  
 > opencv3.4   
 > matlab2017a   
-> gcc-5.5            
-> g++-5.5                  
+> protobuf2.6.1
 
+                
 Source file
 ---------
 [caffe](https://github.com/BVLC/caffe)  
@@ -68,7 +70,19 @@ Directory file
 > 总计:    
 >    7 Passed, 0 Failed, 0 Incomplete.    
 >    0.50392 秒测试时间。     
+### 4.install_script
+     
 
+Reference
+---------
+1.[Ubuntu18.04 install](https://blog.csdn.net/zr459927180/article/details/51627910)      
+2.[gcc-5/g++-5 and gcc-7/g++-7 compatible install](https://blog.csdn.net/geng333abc/article/details/80151937)        
+3.[nvidia390 drivers,cuda9.0,cudnn7.4](https://zhuanlan.zhihu.com/p/36610043)       
+4.[ubuntu+cuda9.0+cudnn7+opencv+matlab+caffe](https://blog.csdn.net/maqing9479/article/details/79103520)       
+5.[opencv install](https://blog.csdn.net/weixin_40298200/article/details/79664225) and [opencv uninstall](https://blog.csdn.net/qq_29229045/article/details/78527391#commentBox)     
+6.[matlab2017a](https://blog.csdn.net/u011713358/article/details/69659265)      
+7.[protobuf error same as #5078 tsing-cv](https://github.com/BVLC/caffe/issues/5078)   and [protobuf install by reading the README file in protobuf-2.6.0](https://github.com/protocolbuffers/protobuf/releases/download/v2.6.0/protobuf-2.6.0.tar.gz)  
+8.[caffe](https://blog.csdn.net/maqing9479/article/details/79103520)       
 
 <---------------------------------------wait for update------------------------------------------->      
   
