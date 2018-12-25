@@ -22,8 +22,8 @@ Source file
 Directory file
 ---------
 ### 1.caffe-fast-rcnn(CPU)    
+Just compile it using the following command：  
 ```
-Just compile it using the following command：    
 sudo make all -j16     
 sudo make test -j16    
 sudo make pycaffe     
